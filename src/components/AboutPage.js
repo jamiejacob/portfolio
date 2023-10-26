@@ -9,9 +9,8 @@ function AboutPage() {
             <h2 className="headtext">About me</h2>
             <Col xs={7}>
               A little too much about me. Not a programming wiz and just winging
-              it. Love to try out new stuff. Interact with clients and deliver
-              their expectations. Jack of many programming languages but master
-              of none
+              it. <b>Google Certified Professional Cloud Architect & Cloud Developer</b>. Love to try out new stuff. Interact with clients and deliver
+              their expectations. 
               <div style={{ paddingTop: "10px" }}>
                 <h4>Skills</h4>
                 <ul>
@@ -36,6 +35,8 @@ const skills = [
   "HTML/CSS",
   "Angular",
   "React",
+  "Next.js",
+  "Google Cloud",
   "Java",
   "Google Cloud",
   "SQL",

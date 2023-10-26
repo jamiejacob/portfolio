@@ -13,12 +13,13 @@ function Contact() {
           <p>
             If you find me interesting and would love to know more about me
             please get in touch
-            Also feel free to post notes on the below wall.
+  
           </p>
-         
+          <div> jamiejacob1988@gmail.com</div> 
+          <div> +45 31869542</div>
         </Container>
         
-        <Comment></Comment>
+       
       </div>
     </>
   );
