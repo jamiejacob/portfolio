@@ -1,9 +1,9 @@
 
 import './App.css';
 import Home from './pages/Home';
-import About from './pages/about';
+import About from './pages/About';
 import { Route, Routes } from 'react-router-dom';
-import ContactMe from './pages/contactme';
+import ContactMe from './pages/Contactme';
 
 function App() {
   return (
