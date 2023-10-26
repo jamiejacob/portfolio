@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 
-import Comment from "./Comment";
 
 function Contact() {
  
