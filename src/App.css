@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie");
 
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -41,121 +40,63 @@
   }
 }
 
-.headtext{
+.headtext {
   letter-spacing: 1px;
   font-weight: 600 !important;
   padding-top: 10px;
 }
 
-.homepagebackground{
+.homepagebackground {
   background-color: lightpink;
-  background-image:linear-gradient(pink,purple);
+  background-image: linear-gradient(pink, purple);
   height: 100vh;
+  overflow: scroll;
   width: 100%;
 }
-.developerimage{
+.developerimage {
   max-width: 500px;
-  height:400px
+  height: 400px;
 }
-.aboutmebg{
+.aboutmebg {
   width: 100%;
-  height: 100%;
-
-  
+  height: 100vh;
   background-color: transparent;
-  border-radius: 15px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
 
-.icon{
+.icon {
   font-size: 30px;
 }
 
-.socialmediabtn{
+.socialmediabtn {
   background-color: transparent;
   border-radius: 15px;
   padding: 20px;
   border: none;
 }
 
-.socialmediabtn:hover{
+.socialmediabtn:hover {
   background-color: white;
 }
 
 .nav-link {
   color: white !important;
-  font-size: 20px !important;
+  font-size: 20px ;
   letter-spacing: 1px;
   font-weight: 500 !important;
   padding-right: 2rem !important;
   padding-left: 1rem !important;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 
-#root{
-  font-family: 'Roboto Mono';
+#root {
+  font-family: "Roboto Mono";
 }
 
-.post-it ul{
-  display: flex;
-  flex-wrap: wrap;
+.nav-link:hover {
+  color: black !important;
 }
-
-.post-it{
-  padding: 20px;
-}
-
-.post-it ul li {
-  text-decoration:none;
-  color:#000;
-  display:block;
-
-  max-height:5em;
-  
-  width:5em;
-  padding:1em;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-  font-family: 'Reenie Beanie' !important;
-  font-size: 2em;
-  background:#ffc;
- 
+@media only screen and (max-width: 767px) {
+  .nav-link {
+    font-size: 14px; /* Adjust the font size as needed */
   }
-
-  .post-it ul li:nth-child(even) {
-    transform:rotate(4deg);
-    position:relative;
-    top:5px;
-    background:#cfc;
-    }
-    
-    .post-it ul li:nth-child(3n) {
-    transform:rotate(-3deg);
-    position:relative;
-    top:-5px;
-    background:#ccf;
-    
-    }
-    
-    .post-it ul li:nth-child(5n) {
-    transform:rotate(5deg);
-    position:relative;
-    top:-10px;
-    background:#ffc;
-    }
-
-    .post-it ul li:hover ,ul li:focus{
-    box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    transform: scale(1.25);
-    position:relative;
-    z-index:5;
-    }
-  
-
-    textarea{
-      background-color: transparent;
-    }
-
-    .nav-link:hover{
-     color: black !important;
-    }
+}

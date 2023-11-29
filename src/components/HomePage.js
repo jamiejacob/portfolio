@@ -18,9 +18,9 @@ function HomePage() {
               <Typewriter
                 options={{
                   strings: [
-                    "Front End Developer",
-                    "Angular Developer",
-                    "React Js Developer",
+                    "Developer",
+                    "Full stack Developer",
+                    "Front end Developer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -35,7 +35,7 @@ function HomePage() {
                   <FaLinkedinIn className="icon"></FaLinkedinIn>
                 </button>
                 <button
-                  onClick={() => window.open()}
+                  onClick={() => window.open('https://github.com/jamiejacob?tab=repositories')}
                   className="socialmediabtn"
                 >
                   <AiFillGithub className="icon"></AiFillGithub>

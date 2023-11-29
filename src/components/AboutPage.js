@@ -4,13 +4,15 @@ function AboutPage() {
   return (
     <>
       <div className="homepagebackground">
-        <Container style={{ paddingTop: "120px" }}>
-          <Row className="aboutmebg">
+        <Container style={{ paddingTop: "20px" }}>
+          <Row className="aboutmebg ">
             <h2 className="headtext">About me</h2>
-            <Col xs={7}>
-              A little too much about me. Not a programming wiz and just winging
-              it. <b>Google Certified Professional Cloud Architect & Cloud Developer</b>. Love to try out new stuff. Interact with clients and deliver
-              their expectations. 
+            <Col xs={12} md={6}>
+              A full-stack developer with a relentless drive for continuous
+              learning and improvement. I believe in the power of staying
+              curious. My journey in the tech world is not just about solving
+              problems but embracing the challenges that come with it. The tech
+              landscape evolves, and so do I
               <div style={{ paddingTop: "10px" }}>
                 <h4>Skills</h4>
                 <ul>
@@ -20,7 +22,7 @@ function AboutPage() {
                 </ul>
               </div>
             </Col>
-            <Col>
+            <Col xs={6} className="d-none d-lg-block">
               <Image src={image}></Image>
             </Col>
           </Row>
@@ -36,9 +38,11 @@ const skills = [
   "Angular",
   "React",
   "Next.js",
-  "Google Cloud",
+  "Tailwind CSS",
+  "Google Cloud Professional Architect",
   "Java",
-  "Google Cloud",
+  "Google Cloud Professional Developer",
   "SQL",
+  " and many more ...",
 ];
 export default AboutPage;

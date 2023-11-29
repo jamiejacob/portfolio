@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       <div className="homepagebackground">
-        <Container style={{ paddingTop: "120px", textAlign: "center" }}>
+        <Container style={{ paddingTop: "120px", textAlign: "center"  }}>
           <h2 className="headtext">Get in Touch</h2>
           <p>
             If you find me interesting and would love to know more about me
